@@ -1,4 +1,3 @@
 # gemini-run-via-python
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/07147143-71b7-458f-ab66-6477d707d479" />
-
+<img width="1323" height="630" alt="new" src="https://github.com/user-attachments/assets/e275683a-5e73-4a62-a5d4-2ca2b2e385c0" />
