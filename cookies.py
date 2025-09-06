@@ -1,4 +1,3 @@
-import sys
 import argparse
 
 def netscape_to_cookie_string(netscape_file):
