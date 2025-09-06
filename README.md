@@ -1,3 +1,8 @@
+### ANNOUNCEMENT
+
+ > NEW V2 IS AVAILABLE IN THE [Releases page](https://github.com/Soumyabrataop/gemini-run-via-python/releases). DO TEST AND LET ME KNOW BUGS AND ERRORS, IF ANY VIA ISSUES.
+
+
 # gemini-run-via-python
 
 ![Screenshot](https://github.com/user-attachments/assets/e275683a-5e73-4a62-a5d4-2ca2b2e385c0)
