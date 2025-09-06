@@ -1,6 +1,5 @@
 import sys
 import argparse
-import os
 
 def netscape_to_cookie_string(netscape_file, output_file=None):
     cookies = []
@@ -18,10 +17,10 @@ def netscape_to_cookie_string(netscape_file, output_file=None):
                 value = parts[6]
                 cookies.append(f"{name}={value}")
     except FileNotFoundError:
-        print(f"Error: Cookie file '{netscape_file}' not found.")
+        print(f"Error: Cookie file '{netscape_file}' not found.", file=sys.stderr)
         sys.exit(1)
     except Exception as e:
-        print(f"Error reading cookie file: {e}")
+        print(f"Error reading cookie file: {e}", file=sys.stderr)
         sys.exit(1)
 
     cookie_string = '; '.join(cookies)
@@ -30,13 +29,13 @@ def netscape_to_cookie_string(netscape_file, output_file=None):
         try:
             with open(output_file, 'w') as f:
                 f.write(cookie_string)
-            print(f"Cookie string saved to {output_file}")
+            print(f"Cookie string saved to {output_file}", file=sys.stderr)
         except Exception as e:
-            print(f"Error writing to output file: {e}")
+            print(f"Error writing to output file: {e}", file=sys.stderr)
             sys.exit(1)
     else:
-        # Output to stdout for piping
-        print(cookie_string)
+        # Output to stdout for piping (no trailing newline)
+        sys.stdout.write(cookie_string)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
