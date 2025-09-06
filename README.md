@@ -16,9 +16,7 @@ The scripts `headless.py` and `main.py` are currently designed to work **only on
 
 1. **Start the Program:**
       Run this command to get started:
-      `bash
-      python init.py
-      `
+      `python init.py`
 
 2. **Use Headless Mode (Option 2):**
       If you want to get images, text, and videos from Gemini, use Option 2 (Headless Mode).
@@ -43,9 +41,7 @@ If you're not on Windows or don't have Firefox, you can still use the script by 
 
 3. **Convert Your Cookies File**
       Convert your cookies into the right format by running this command:
-      `bash
-      curl -s https://raw.githubusercontent.com/Soumyabrataop/gemini-run-via-python/main/cookies.py | python - --cookies.txt /path/to/cookies.txt
-      `
+      `curl -s https://raw.githubusercontent.com/Soumyabrataop/gemini-run-via-python/main/cookies.py | python - --cookies.txt /path/to/cookies.txt`
 
    Make sure to replace `/path/to/cookies.txt` with the location of your exported cookies file.
 
