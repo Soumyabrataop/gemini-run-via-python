@@ -1,8 +1,8 @@
-# 🤖 Gemini Chat API
+# Gemini Chat API
 
 **Turn Google Gemini into your personal API!** This tool lets you chat with Google's Gemini AI through a simple web interface or programming code, without needing Google's official API keys.
 
-## 🌟 What Does This Do?
+## What Does This Do?
 
 - **Chat with Gemini AI** through a user-friendly web interface
 - **Get AI responses** that you can use in your own projects
@@ -10,7 +10,7 @@
 - **Download images** - Save pictures that Gemini creates for you
 - **Free to use** - no subscription required
 
-## 🚀 Getting Started (Easy Way)
+## Getting Started (Easy Way)
 
 ### Step 1: Get Your "Login Cookie" 
 
@@ -41,7 +41,7 @@ GEMINI_COOKIES="paste_your_cookie_here"
 HEADLESS=false
 ```
 
-⚠️ **Important:** Keep your cookie private! Don't share it with others or post it online - it's like your password.
+**Important:** Keep your cookie private! Don't share it with others or post it online - it's like your password.
 
 ### Step 3: Install Required Software
 
@@ -65,7 +65,7 @@ playwright install firefox
 3. **Open your web browser** and go to: `http://localhost:8080/docs`
 4. **Start chatting** with Gemini through the web interface!
 
-## 💬 How to Use
+## How to Use
 
 ### Web Interface (Easiest)
 Once you've started the program, visit `http://localhost:8080/docs` in your browser. You'll see a simple form where you can:
@@ -82,7 +82,7 @@ curl -X POST "http://localhost:8080/browser" \
   -d '{"prompt": "Hello Gemini!"}'
 ```
 
-## 🐳 Advanced: Using Docker
+## Advanced: Using Docker
 
 If you're familiar with Docker, you can run this in a container:
 
@@ -92,7 +92,7 @@ If you're familiar with Docker, you can run this in a container:
 
 *Note: If you get login errors with Docker, add `DOCKER_CONTAINER=true` to your `.env` file.*
 
-## ❓ Common Problems & Solutions
+## Common Problems & Solutions
 
 **"Empty responses" or "Not signed in"**
 - Your cookie has expired (they last about 1-2 weeks)
@@ -111,7 +111,7 @@ If you're familiar with Docker, you can run this in a container:
 - Try using a fresh browser session
 - Check that your internet connection is working
 
-## 🎯 What Can You Do With This?
+## What Can You Do With This?
 
 - **Personal AI assistant** for daily questions
 - **Content creation** help (writing, ideas, etc.)
@@ -121,4 +121,4 @@ If you're familiar with Docker, you can run this in a container:
 
 ---
 
-**Need help?** Open an issue on GitHub and we'll help you get started! 🚀
+**Need help?** Open an issue on GitHub and we'll help you get started!
