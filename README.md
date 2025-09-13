@@ -7,7 +7,7 @@
 - **Chat with Gemini AI** through a user-friendly web interface
 - **Get AI responses** that you can use in your own projects
 - **No API keys needed** - just use your Google account
-- **Works with images** - Gemini can analyze and describe pictures
+- **Download images** - Save pictures that Gemini creates for you
 - **Free to use** - no subscription required
 
 ## 🚀 Getting Started (Easy Way)
@@ -40,6 +40,8 @@ Think of this like getting a temporary pass to use Gemini on your behalf:
 GEMINI_COOKIES="paste_your_cookie_here"
 HEADLESS=false
 ```
+
+⚠️ **Important:** Keep your cookie private! Don't share it with others or post it online - it's like your password.
 
 ### Step 3: Install Required Software
 
@@ -88,6 +90,8 @@ If you're familiar with Docker, you can run this in a container:
 2. **Build:** `docker build -t gemini-chat .`
 3. **Run:** `docker run -p 8080:8080 gemini-chat`
 
+*Note: If you get login errors with Docker, add `DOCKER_CONTAINER=true` to your `.env` file.*
+
 ## ❓ Common Problems & Solutions
 
 **"Empty responses" or "Not signed in"**
@@ -111,7 +115,7 @@ If you're familiar with Docker, you can run this in a container:
 
 - **Personal AI assistant** for daily questions
 - **Content creation** help (writing, ideas, etc.)
-- **Image analysis** (describe photos, extract text)
+- **Get images** that Gemini creates (like drawings or charts)
 - **Learning tool** (ask questions about any topic)
 - **Integrate AI** into your own projects and websites
 
